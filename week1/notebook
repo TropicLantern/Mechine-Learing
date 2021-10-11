@@ -21,9 +21,24 @@ right answers given
 Regression:Predict continuous(for example,valued output such as "price")
 Classification problem
 Discrete valued,output(0 or 1......)
-regresstion problem 
-Classification problem
+regresstion problem , Classification problem
 
 Unsupervised learning
+clustering problem
+Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
+We can derive this structure by clustering the data based on relationships among the variables in the data.
+With unsupervised learning there is no feedback based on the prediction results.
+Example:
+Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.
+Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
 
-Others:Reinforcement learning,recommender systems
+有监督学习与无监督学习的几大区别：
+对比一 ： 有标签 vs 无标签
+有监督的过程为先通过已知的训练样本（如已知输入和对应的输出）来训练，从而得到一个最优模型，再将这个模型应用在新的数据上，映射为输出结果。再经过这样的过程后，模型就有了预知能力。
+无监督相比于有监督，没有训练的过程，而是直接拿数据进行建模分析，意味着这些都是要通过机器学习自行学习探索。比如我们去参观一个画展，我们对艺术一无所知，但是欣赏完多幅作品之后，我们也能把它们分成不同的派别。比如哪些更朦胧一点，哪些更写实一些。即使我们不知道什么叫做朦胧派和写实派，但是至少我们能把他们分为两个类。
+对比二 ： 分类 vs 聚类
+对比三 ： 同维 vs 降维
+对比四 ：分类同时定性 vs 先聚类后定性
+对比五 ：独立 vs 非独立
+对比六 ： 不透明 vs 可解释性
+对比七 ：DataVisor无监督独有的拓展性
